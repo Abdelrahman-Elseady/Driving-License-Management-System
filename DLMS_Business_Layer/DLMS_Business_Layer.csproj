@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="clsCountry.cs" />
+    <Compile Include="clsPerson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLMS_Data_Layer\DLMS_Data_Layer.csproj">
+      <Project>{7d08ec9f-2496-4930-be9e-705941abd45a}</Project>
+      <Name>DLMS_Data_Layer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

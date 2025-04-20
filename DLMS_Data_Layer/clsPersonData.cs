@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DLMS_Data_Layer
 {
-    static class clsPersonData
+    public static class clsPersonData
     {
         
         public static DataTable GetAllPeople()

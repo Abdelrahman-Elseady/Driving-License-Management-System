@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace DLMS_Data_Layer
 {
-    static class clsCountryData
-    {
+    public static class clsCountryData
+    { 
         public static DataTable GetAllCountries()
         {
             DataTable dt=new DataTable();
