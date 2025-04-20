@@ -6,10 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DLMSO_Data_Layer
+namespace DLMS_Data_Layer
 {
     static class clsPersonData
     {
+        
         public static DataTable GetAllPeople()
         {
             DataTable dataTable = new DataTable();

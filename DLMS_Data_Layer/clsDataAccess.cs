@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DLMSO_Data_Layer
+namespace DLMS_Data_Layer
 {
     static class clsDataAccessSettings
     {
