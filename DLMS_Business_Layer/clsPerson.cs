@@ -10,11 +10,11 @@ using DLMS_Data_Layer;
 
 namespace DLMS_Business_Layer
 {
-    internal class clsPerson
+    public class clsPerson
     {
         internal enum enMode { AddNew = 0, Update = 1 }
 
-        public enMode Mode;
+        internal enMode Mode;
         public string NationalNo { get; set; }
         public int PersonID { get; set; }
         public string FirstName { get; set; }

@@ -8,6 +8,6 @@ namespace DLMS_Data_Layer
 {
     static class clsDataAccessSettings
     {
-        public static string ConnectionString = "server=.;DataBase=DLMS;User id=sa;Password=123456";
+        public static string ConnectionString = "server=.;DataBase=DLMS;User id=sa;Password=sa123456";
     }
 }

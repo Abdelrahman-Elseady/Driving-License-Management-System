@@ -107,5 +107,11 @@
   <ItemGroup>
     <None Include="Resources\People 400.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLMS_Business_Layer\DLMS_Business_Layer.csproj">
+      <Project>{b613eb7b-8f04-4b61-ad24-dacfa06d1c1f}</Project>
+      <Name>DLMS_Business_Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

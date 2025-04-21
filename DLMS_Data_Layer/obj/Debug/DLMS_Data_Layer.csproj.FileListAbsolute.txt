@@ -4,3 +4,9 @@ D:\vs\DLMSO_Data_Layer\DLMSO_Data_Layer\bin\Debug\DLMSO_Data_Layer.dll
 D:\vs\DLMSO_Data_Layer\DLMSO_Data_Layer\bin\Debug\DLMSO_Data_Layer.pdb
 D:\vs\DLMSO_Data_Layer\DLMSO_Data_Layer\obj\Debug\DLMSO_Data_Layer.dll
 D:\vs\DLMSO_Data_Layer\DLMSO_Data_Layer\obj\Debug\DLMSO_Data_Layer.pdb
+D:\vs\DLMS\DLMS_Data_Layer\bin\Debug\DLMSO_Data_Layer.dll
+D:\vs\DLMS\DLMS_Data_Layer\bin\Debug\DLMSO_Data_Layer.pdb
+D:\vs\DLMS\DLMS_Data_Layer\obj\Debug\DLMS_Data_Layer.csproj.AssemblyReference.cache
+D:\vs\DLMS\DLMS_Data_Layer\obj\Debug\DLMS_Data_Layer.csproj.CoreCompileInputs.cache
+D:\vs\DLMS\DLMS_Data_Layer\obj\Debug\DLMSO_Data_Layer.dll
+D:\vs\DLMS\DLMS_Data_Layer\obj\Debug\DLMSO_Data_Layer.pdb

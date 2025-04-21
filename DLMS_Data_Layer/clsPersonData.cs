@@ -31,7 +31,7 @@ namespace DLMS_Data_Layer
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
             finally
             {
