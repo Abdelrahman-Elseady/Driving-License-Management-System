@@ -106,5 +106,16 @@ namespace DLMS_Presentation_Layer
 
             lblRowsNum.Text = dgvPeople.RowCount.ToString();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txtFilterText_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (cbFilter.Text == "Person ID")
+                e.Handled = (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar));
+        }
     }
 }

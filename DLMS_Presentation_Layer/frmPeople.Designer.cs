@@ -29,15 +29,16 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.cbFilter = new System.Windows.Forms.ComboBox();
             this.txtFilterText = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.lblRowsNum = new System.Windows.Forms.Label();
             this.dgvPeople = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPeople)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -50,16 +51,6 @@
             this.label1.Size = new System.Drawing.Size(294, 42);
             this.label1.TabIndex = 0;
             this.label1.Text = "Manage People";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::DLMS_Presentation_Layer.Properties.Resources.People_400;
-            this.pictureBox1.Location = new System.Drawing.Point(640, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 201);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -102,12 +93,13 @@
             this.txtFilterText.Size = new System.Drawing.Size(199, 22);
             this.txtFilterText.TabIndex = 4;
             this.txtFilterText.TextChanged += new System.EventHandler(this.txtFilterText_TextChanged);
+            this.txtFilterText.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFilterText_KeyPress);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 783);
+            this.label3.Location = new System.Drawing.Point(13, 797);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 20);
             this.label3.TabIndex = 6;
@@ -117,7 +109,7 @@
             // 
             this.lblRowsNum.AutoSize = true;
             this.lblRowsNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRowsNum.Location = new System.Drawing.Point(126, 783);
+            this.lblRowsNum.Location = new System.Drawing.Point(126, 797);
             this.lblRowsNum.Name = "lblRowsNum";
             this.lblRowsNum.Size = new System.Drawing.Size(19, 20);
             this.lblRowsNum.TabIndex = 7;
@@ -140,12 +132,37 @@
             this.dgvPeople.Size = new System.Drawing.Size(1496, 484);
             this.dgvPeople.TabIndex = 8;
             // 
+            // btnClose
+            // 
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Image = global::DLMS_Presentation_Layer.Properties.Resources.Close_32;
+            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnClose.Location = new System.Drawing.Point(1407, 786);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(106, 42);
+            this.btnClose.TabIndex = 9;
+            this.btnClose.Text = "Close";
+            this.btnClose.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::DLMS_Presentation_Layer.Properties.Resources.People_400;
+            this.pictureBox1.Location = new System.Drawing.Point(640, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(192, 201);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmPeople
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1525, 939);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.dgvPeople);
             this.Controls.Add(this.lblRowsNum);
             this.Controls.Add(this.label3);
@@ -159,8 +176,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "People";
             this.Load += new System.EventHandler(this.frmPeople_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPeople)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,5 +193,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblRowsNum;
         private System.Windows.Forms.DataGridView dgvPeople;
+        private System.Windows.Forms.Button btnClose;
     }
 }
