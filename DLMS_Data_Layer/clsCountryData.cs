@@ -14,10 +14,11 @@ namespace DLMS_Data_Layer
         {
             DataTable dt=new DataTable();
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
-            string Query = "exec GetAllCountries";
-            SqlCommand command = new SqlCommand(Query, connection);
+            SqlCommand command = new SqlCommand("GetAllCountries", connection);
+            command.CommandType = CommandType.StoredProcedure;
             try
             {
+                connection.Open();
                 SqlDataReader reader = command.ExecuteReader();
                 if(reader.HasRows)
                 {
@@ -120,8 +121,8 @@ namespace DLMS_Data_Layer
         {
             bool IsFound = false;
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
-            string Query = "exec GetCountryInfoByName @CountryName";
-            SqlCommand cmd= new SqlCommand(Query, connection);
+            SqlCommand cmd= new SqlCommand("GetCountryInfoByName", connection);
+            cmd.CommandType= CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@CountryName", CountryName);
             try
             {

@@ -125,6 +125,10 @@ namespace DLMS_Business_Layer
         {
             return clsPersonData.IsPersonExist(NationalNo);
         }
+        public static bool DeletePerson(int PersonID)
+        {
+            return clsPersonData.DeletePerson(PersonID);
+        }
     }
 
 }

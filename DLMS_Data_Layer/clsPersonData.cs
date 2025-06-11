@@ -89,9 +89,9 @@ namespace DLMS_Data_Layer
         public static bool UpdatePerson(int PersonID, string NationalNo, string FirstName, string SecondName, string ThirdName, string LastName, DateTime DateOfBirth, bool Gender, string Address, string Email, string Phone, int NationalityCountryID, string ImagePath)
         {
             bool IsUpdated = false;
-            SqlConnection connection = new SqlConnection();
-            string Query = "exec UpdatePerson\r\n\t@PersonID,@NationalNo,@FirstName,@SecondName,@ThirdName,@LastName,@DateOfBirth,@Gender,@Address,@Phone,@Email,@NationalityCountryID,@ImagePath;";
-            SqlCommand command = new SqlCommand(Query, connection);
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
+            SqlCommand command = new SqlCommand("UpdatePerson", connection);
+            command.CommandType = CommandType.StoredProcedure;
             command.Parameters.AddWithValue("@PersonID", PersonID);
             command.Parameters.AddWithValue("@NationalNo", NationalNo);
             command.Parameters.AddWithValue("@FirstName", FirstName);
@@ -136,7 +136,7 @@ namespace DLMS_Data_Layer
         public static bool DeletePerson(int PersonID)
         {
             bool IsDeleted = false;
-            SqlConnection connection = new SqlConnection();
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
             string Query = "Exec DeletePerson @PersonID";
             SqlCommand command = new SqlCommand(Query, connection);
             command.Parameters.AddWithValue("@PersonID", PersonID);
@@ -180,7 +180,7 @@ namespace DLMS_Data_Layer
                         ThirdName = "";
                     LastName = (string)reader["LastName"];
                     DateOfBirth = (DateTime)reader["DateOfBirth"];
-                    Gender = (bool)reader["Gender"];
+                    Gender = (byte)reader["Gender"] == 1;
                     Address = (string)reader["Address"];
                     Phone = (string)reader["Phone"];
                     if (reader["Email"] != System.DBNull.Value)
