@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vs\\DLMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D08EC9F-2496-4930-BE9E-705941ABD45A}|DLMS_Data_Layer\\DLMS_Data_Layer.csproj|d:\\vs\\dlms\\dlms_data_layer\\clsdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D08EC9F-2496-4930-BE9E-705941ABD45A}|DLMS_Data_Layer\\DLMS_Data_Layer.csproj|solutionrelative:dlms_data_layer\\clsdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|d:\\vs\\dlms\\dlms_presentation_layer\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|solutionrelative:dlms_presentation_layer\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B613EB7B-8F04-4B61-AD24-DACFA06D1C1F}|DLMS_Business_Layer\\DLMS_Business_Layer.csproj|D:\\vs\\DLMS\\dlms_business_layer\\clsperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B613EB7B-8F04-4B61-AD24-DACFA06D1C1F}|DLMS_Business_Layer\\DLMS_Business_Layer.csproj|solutionrelative:dlms_business_layer\\clsperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|D:\\vs\\DLMS\\dlms_presentation_layer\\people\\frmpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|solutionrelative:dlms_presentation_layer\\people\\frmpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D08EC9F-2496-4930-BE9E-705941ABD45A}|DLMS_Data_Layer\\DLMS_Data_Layer.csproj|D:\\vs\\DLMS\\dlms_data_layer\\clspersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D08EC9F-2496-4930-BE9E-705941ABD45A}|DLMS_Data_Layer\\DLMS_Data_Layer.csproj|solutionrelative:dlms_data_layer\\clspersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|D:\\vs\\DLMS\\dlms_presentation_layer\\people\\frmpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|solutionrelative:dlms_presentation_layer\\people\\frmpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B613EB7B-8F04-4B61-AD24-DACFA06D1C1F}|DLMS_Business_Layer\\DLMS_Business_Layer.csproj|D:\\vs\\DLMS\\dlms_business_layer\\clscountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B613EB7B-8F04-4B61-AD24-DACFA06D1C1F}|DLMS_Business_Layer\\DLMS_Business_Layer.csproj|solutionrelative:dlms_business_layer\\clscountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D08EC9F-2496-4930-BE9E-705941ABD45A}|DLMS_Data_Layer\\DLMS_Data_Layer.csproj|D:\\vs\\DLMS\\dlms_data_layer\\clscountrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D08EC9F-2496-4930-BE9E-705941ABD45A}|DLMS_Data_Layer\\DLMS_Data_Layer.csproj|solutionrelative:dlms_data_layer\\clscountrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|D:\\vs\\DLMS\\dlms_presentation_layer\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|solutionrelative:dlms_presentation_layer\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|D:\\vs\\DLMS\\dlms_presentation_layer\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|solutionrelative:dlms_presentation_layer\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|D:\\vs\\DLMS\\dlms_presentation_layer\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DC6E47C-DC0B-4C28-8B23-6F2FEC50799E}|DLMS_Presentation_Layer\\DLMS_Presentation_Layer.csproj|solutionrelative:dlms_presentation_layer\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\frmMain.cs",
+              "RelativeDocumentMoniker": "DLMS_Presentation_Layer\\frmMain.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\frmMain.cs [Design]",
+              "RelativeToolTip": "DLMS_Presentation_Layer\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:15:02.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\frmMain.cs",
+              "RelativeDocumentMoniker": "DLMS_Presentation_Layer\\frmMain.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\frmMain.cs",
+              "RelativeToolTip": "DLMS_Presentation_Layer\\frmMain.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAawBYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:43:14.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "clsCountryData.cs",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Data_Layer\\clsCountryData.cs",
+              "RelativeDocumentMoniker": "DLMS_Data_Layer\\clsCountryData.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Data_Layer\\clsCountryData.cs",
+              "RelativeToolTip": "DLMS_Data_Layer\\clsCountryData.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAADwv5EAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T09:46:47.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsCountry.cs",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Business_Layer\\clsCountry.cs",
+              "RelativeDocumentMoniker": "DLMS_Business_Layer\\clsCountry.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Business_Layer\\clsCountry.cs",
+              "RelativeToolTip": "DLMS_Business_Layer\\clsCountry.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAswEYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:29:57.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmAddUpdatePerson.cs [Design]",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\People\\frmAddUpdatePerson.cs",
+              "RelativeDocumentMoniker": "DLMS_Presentation_Layer\\People\\frmAddUpdatePerson.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\People\\frmAddUpdatePerson.cs [Design]",
+              "RelativeToolTip": "DLMS_Presentation_Layer\\People\\frmAddUpdatePerson.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T20:54:31.979Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmAddUpdatePerson.cs",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\People\\frmAddUpdatePerson.cs",
+              "RelativeDocumentMoniker": "DLMS_Presentation_Layer\\People\\frmAddUpdatePerson.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\People\\frmAddUpdatePerson.cs",
+              "RelativeToolTip": "DLMS_Presentation_Layer\\People\\frmAddUpdatePerson.cs",
+              "ViewState": "AQIAAOUAAAAAAAAAAAAQwAcBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:10:59.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmPeople.cs [Design]",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\People\\frmPeople.cs",
+              "RelativeDocumentMoniker": "DLMS_Presentation_Layer\\People\\frmPeople.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\People\\frmPeople.cs [Design]",
+              "RelativeToolTip": "DLMS_Presentation_Layer\\People\\frmPeople.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:29:21.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPeople.cs",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\People\\frmPeople.cs",
+              "RelativeDocumentMoniker": "DLMS_Presentation_Layer\\People\\frmPeople.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Presentation_Layer\\People\\frmPeople.cs",
+              "RelativeToolTip": "DLMS_Presentation_Layer\\People\\frmPeople.cs",
+              "ViewState": "AQIAABQAAAAAKjMzM/MgwHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:33:17.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsPerson.cs",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Business_Layer\\clsPerson.cs",
+              "RelativeDocumentMoniker": "DLMS_Business_Layer\\clsPerson.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Business_Layer\\clsPerson.cs",
+              "RelativeToolTip": "DLMS_Business_Layer\\clsPerson.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowFMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T08:32:03.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsPersonData.cs",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Data_Layer\\clsPersonData.cs",
+              "RelativeDocumentMoniker": "DLMS_Data_Layer\\clsPersonData.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Data_Layer\\clsPersonData.cs",
+              "RelativeToolTip": "DLMS_Data_Layer\\clsPersonData.cs",
+              "ViewState": "AQIAAHEAAABAMjMzM/MowIQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:22:58.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsDataAccess.cs",
+              "DocumentMoniker": "D:\\vs\\DLMS\\DLMS_Data_Layer\\clsDataAccess.cs",
+              "RelativeDocumentMoniker": "DLMS_Data_Layer\\clsDataAccess.cs",
+              "ToolTip": "D:\\vs\\DLMS\\DLMS_Data_Layer\\clsDataAccess.cs",
+              "RelativeToolTip": "DLMS_Data_Layer\\clsDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T21:19:32.833Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
